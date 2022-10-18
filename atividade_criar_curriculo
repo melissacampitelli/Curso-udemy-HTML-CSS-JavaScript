@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Currículo Vitae</h1>
+    <hr>
+
+    <p><b>Nome:</b> Melissa Matos Campitelli</p> 
+    <p><b>Objetivo:</b> Desenvolverdor front-end</p>
+<hr>
+
+<h1> Qualificações profissionais</h1>
+
+<ul>
+    <li> Estudante de Análise e desenvolvimento de sistemas <b>SENAC</b> </li>
+    <li> Curso de Javascript e interatividade para Web <b>SENAC</b></li>
+    <li>Curso de desenvolvedor front-end <b>softex</b></li>
+    <li> Curso de Web design <b>Udemy</b></li>
+    
+</ul>
+
+</body>
+</html>
