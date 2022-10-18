@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> titulo 1</h1>
+    <h2> titulo 2</h2>
+    <h3> titulo 3</h3>
+    <h4> titulo 4</h4>
+    <h5> titulo 5</h5>
+
+    <p> meu primeiro parágrafo com link para uma <a href="https://www.youtube.com/" target="_blank">página externa</a> <a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/learn/lecture/10186374#overview"> clique aqui</a></p>
+<hr>
+
+<ul>
+    <li> item de lista  </li>
+    <li> item com <b> negrito</b></li>
+    <li>item em <i> itálico</i></li>
+    
+</ul>
+
+<ol>
+<li> agora listas numeradas</li>
+<li> ou ordenadas</li>
+</ol>
+
+<p> essa palavra vai ser colocada em negrito mas não apenas para o usuario visulamente, mas sim para destacar <strong> HTML </strong></p>
+</body>
+</html>
