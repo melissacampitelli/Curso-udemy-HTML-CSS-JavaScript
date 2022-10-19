@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            color: rgb(0, 19, 128);
+        }
+        a{
+            color:rgb(128, 0, 70);
+        }
+        a:hover{
+            background-color: #ccc;
+            
+        }
+        a:visited{
+            color:blueviolet;/* quando você visita a página e retorna, fica dessa cor*/
+        }
+
+        a:link{
+            color:green;
+        }
+        a:active{
+            color: orangered; /*fica dessa cor quando você pressiona*/
+        }
+
+        ul li{ /*o ol ou ul é colocado na frente pra separar as listas */
+            list-style-type: circle;
+        }
+        ol li{
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/">veja o arquivo de teste </a>
+    <a href="https://www.youtube.com/"> veja o segundo arquivo</a>
+
+    <ul>
+        <li> item 1</li>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ul>
+    <ol>
+        <li> item 1</li>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ol>
+    <p> paragrafo</p>
+</body>
+</html>
