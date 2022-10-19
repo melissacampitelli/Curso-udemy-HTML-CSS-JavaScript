@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- o doctype informa  ao agente de usuario a versão de html que deve ser renderizada-->
+<html lang = "pt-br">
+    <head>
+        <title> pagina de exemplo estrutura básica </title>
+        <meta charset="utf-8">
+        <!--serve para poder usar ç/ão e coisas assim da lingua portuguesa-->
+        <meta name ="author" content="Melissa">
+        <!--quem é o autor da página-->
+        <meta name = "description" content="CSS"> 
+        <!--a descrição da página/ do conteúdo-->
+        <meta name = "keywords" content ="html5, CSS">
+        <!--palavras chaves-->
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif; 
+                color: aqua;
+                font-size: 40px;
+                font-style: normal;
+                font-variant: small-caps;
+            }
+
+            h2{
+                text-transform: uppercase;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: aliceblue;
+                background-color: #f000ff;
+            }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                text-decoration:underline;
+                text-indent: 20px;
+                text-transform: none;
+            }
+    
+            body{
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+        <body>
+<h1> treinando CSS</h1>
+<h2> CSS</h2>
+
+<p>
+    Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.A ordem dos tratores não altera o pão duris.Atirei o pau no gatis, per gatis num morreus.Cevadis im ampola pa arma uma pindureta.</p>
+
+<p>Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Mé faiz elementum girarzis, nisi eros vermeio.Cevadis im ampola pa arma uma pindureta. </p>
+
+<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Cevadis im ampola pa arma uma pindureta.Per aumento de cachacis, eu reclamis.</p>
+        </body>
+ 
+</html>
