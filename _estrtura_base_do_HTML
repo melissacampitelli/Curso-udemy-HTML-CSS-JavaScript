@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- o doctype informa  ao agente de usuario a versão de html que deve ser renderizada-->
+<html lang = "pt-br">
+    <head>
+        <title> pagina de exemplo estrutura básica </title>
+        <meta charset="utf-8">
+        <!--serve para poder usar ç/ão e coisas assim da lingua portuguesa-->
+        <meta name ="author" content="Melissa">
+        <!--quem é o autor da página-->
+        <meta name = "description" content="lista de documentos"> 
+        <!--a descrição da página/ do conteúdo-->
+        <meta name = "keywords" content ="html5, tecnologia">
+        <!--palavras chaves-->
+    </head>
+        <body>
+<h1> estrutura básica </h1>
+        </body>
+    
+</html>
