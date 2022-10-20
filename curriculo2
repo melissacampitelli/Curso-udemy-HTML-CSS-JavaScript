@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+    <head>
+        <title> pagina curriculo </title>
+        <meta charset="utf-8"> 
+        <meta name ="author" content="Melissa">
+        <meta name = "description" content="exercicio curriculo"> 
+        <meta name = "keywords" content ="html5, tecnologia">
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                color: blue;
+                background-color: rgb(117, 255, 209);
+                margin: 50px 75px 30px 0px;
+                padding: 20px;
+                text-align: center;
+            }
+            h2,h3,h4{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                color: black;
+                background-color: blue;
+                margin: 50px 75px 30px 0px;
+                padding: 20px;
+                border-bottom-color: black;
+                border-bottom-style:groove;
+                border-bottom-width: 5px;
+            }
+
+            .principal{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            p{
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+        <body>
+<h1> Melissa Campitelli </h1>
+<p>Brasileira, 21 anos, solteira.</p>
+<h2>Objetivo</h2>
+<p> Front-end Developer, web design</p>
+<h3>Formação Educacional</h3>
+<p class="principal"><b> 3° período em Análise e desenvolvimento de sistemas</b></p>
+<p>10/2021 a 05/2024</p>
+<p>Faculdade: <b>SENAC</b></p>
+<p class="principal"><b> 6° período em Licenciatura em História</b></p>
+<p>03/2019 a 01/2024</p>
+<p>Faculdade: <b>UPE(Universidade de Pernambuco)</b></p>
+<h4> Cursos/Especializações</h4>
+<p class="principal"><b>Inglês</b></p>
+<p>SENAC-Intermediary</p>
+<p class="principal"><b>JavaScript e interatividade para Web</b></p>
+<p>SENAC-36h-2022</p>
+<p class="principal"><b>Desenvolvedor Front-End</b></p>
+<p>SOFTEX-276h-2022</p>
+        </body>
+    
+</html>
