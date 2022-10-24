@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <title> pagina de exemplo estrutura básica </title>
+        <meta charset="utf-8">
+        <meta name ="author" content="Melissa">
+        <meta name = "description" content="Padding"> 
+        <meta name = "keywords" content ="html5, tecnologia">
+     <style>
+        div{
+            background-color: orange;
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+        }
+        #div1{
+            padding: 25px;
+        }
+        #div2{
+            padding: 25px;
+            box-sizing: border-box; /*faz com que o padding não altere o tamanho final */
+
+        }
+     </style>
+    </head>
+        <body>
+<h1> manipulando o Padding </h1>
+<div id="div1">teste</div>
+<div id="div2">teste</div>
+
+        </body>
+    
+</html>
