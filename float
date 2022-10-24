@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <title> float</title>
+        <meta charset="utf-8">
+        <meta name ="author" content="Melissa">
+        <meta name = "description" content="float"> 
+        <meta name = "keywords" content ="html5, tecnologia">
+     <style>
+        #container{
+            background-color: #ccc;
+            width: 80%;
+          padding: 15px;
+          overflow: auto; /*usado para regular a altura*/
+        }
+        #container div{
+            border: 2px solid red;
+            width: 150px;
+            height: 50px;
+            margin: 5px;
+        }
+        #div1{
+            float: left;
+        }
+        #div2{
+            float: left;
+        }
+        #div3{
+            float: left;
+        }
+        header{
+            background-color: #ccc;
+            height: 50px;
+        }
+        nav{
+            width: 25%;
+            height: 100px;
+            background-color: orange;
+            float: left;
+        }
+        main{
+            width: 70%;
+            height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+       footer{
+        background-color: blue;
+        height: 50px;
+        clear: both; /*tira o efeito do float no footer*/
+       }
+     </style>
+    </head>
+        <body>
+<h1> float </h1>
+<div id="container">
+<div id="div1">div1</div>
+<div id="div2">div2</div>
+<div id="div3">div3</div>
+
+</div>
+ 
+<hr>
+<header>header</header>
+<nav>nav</nav>
+<main>main</main>
+<footer><footer></footer></footer>
+
+        </body>
+    
+</html>
