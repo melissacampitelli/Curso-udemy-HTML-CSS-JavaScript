@@ -1,0 +1,136 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 60px 100px;
+}
+#linha{
+    background-image: linear-gradient(45deg,rgb(11, 10, 26),rgb(36, 34, 71));
+    float: left;
+    width: 100%;
+
+}
+.logo{
+    float:left;
+    margin: 5px 0 0 135px;
+}
+.top{
+    background-image: url(imagens/topo.jpg);
+    height: 500px;
+    position: right center;
+    background-size: cover;
+}
+header nav{ /*alinhou as letras no topo*/
+    top: 60px;
+    right: 100px;
+   position: absolute;
+}
+
+.top nav li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+
+    
+}
+.top nav a{
+    background-color: rgba (0 , 0,0 , 0.7);
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: block;
+    transition: color 0.3s linear;
+    
+}
+.top nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+    float: right;
+    
+}
+.top nav a:hover{
+    background-color :white;
+}
+main{
+    text-align: center;
+}
+main h1{
+    margin-top: 100px;
+    color: rgb(23, 23, 65);
+}
+main p{
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2;
+    color: rgb(42, 58, 88);
+}
+#content-section{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letter{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bold; /*fica em negrito */
+}
+.card{
+    width: 32%;
+   float: left; 
+    margin-top: 60px;   
+    text-align: center; 
+    overflow: auto;   
+    margin-bottom: 40px;
+}
+
+.About{
+   
+    background-image: url(imagens/bg_detalhe.png);
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    clear: both;
+    
+}
+.inside-article{
+    line-height: 1,5;
+    width: 70%;
+   
+}
+.About h1, h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+}
+.contact{
+    margin: 50px 0px;
+
+}
+address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+.google{
+width: 100%;
+height: 450px;
+margin-top: 15px;
+}
+.google iframe{
+    width: 100%;
+}
+footer{
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 40px;
+}
